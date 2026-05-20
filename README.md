@@ -44,6 +44,16 @@ npm start
 
 Serves the app at [http://localhost:5000](http://localhost:5000).
 
+## Live website URL (deploy)
+
+GitHub does **not** run the app. To get a public link like `https://agriresolve.onrender.com`:
+
+1. Go to [Render → Deploy from GitHub](https://dashboard.render.com/select-repo?type=web) and sign in with GitHub.
+2. Authorize Render, select the **agriresolve** repo, and create the web service (settings are in `render.yaml`).
+3. Add `OPENAI_API_KEY` in Render’s **Environment** tab for the AI assistant.
+
+See [DEPLOY.md](DEPLOY.md) for step-by-step screenshots-style instructions.
+
 ## Deploy to GitHub
 
 1. Create a new repository on GitHub (e.g. `agriresolve`).
