@@ -8,7 +8,7 @@ import {
 } from "@/lib/api";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { ArrowLeft, Send, Sprout, Loader2, Bot, User, Mic, MicOff, Globe } from "lucide-react";
+import { ArrowLeft, Send, Loader2, Bot, User, Mic, MicOff, Globe } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 
@@ -52,7 +52,7 @@ export default function Assistant() {
             </Button>
           </Link>
           <div className="flex items-center gap-2 text-primary font-bold text-lg font-serif">
-            <Sprout className="h-5 w-5" />
+            <img src="/logo.png" alt="" className="h-8 w-8 rounded-lg object-cover" aria-hidden />
             AI Green Assistant
           </div>
         </div>
@@ -298,9 +298,7 @@ function ChatWindow({
       >
         {localMessages.length === 0 && !isStreaming && !initialContext && (
           <div className="h-full flex flex-col items-center justify-center text-center space-y-4 text-muted-foreground p-8">
-            <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-2">
-              <Sprout className="h-8 w-8 text-primary" />
-            </div>
+            <img src="/logo.png" alt="AgriResolve" className="h-16 w-16 rounded-2xl object-cover mb-2" />
             <p className="text-lg font-medium text-foreground">Hello, Grower!</p>
             <p className="max-w-sm">
               I'm your AI Green Assistant. Ask me anything about hydroponics,

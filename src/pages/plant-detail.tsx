@@ -51,7 +51,7 @@ export default function PlantDetail() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
         <div className="flex flex-col items-center gap-4 animate-pulse">
-          <Sprout className="h-12 w-12 text-primary opacity-50" />
+          <img src="/logo.png" alt="" className="h-12 w-12 rounded-xl object-cover opacity-80" aria-hidden />
           <p className="text-muted-foreground text-lg">Loading plant data...</p>
         </div>
       </div>
