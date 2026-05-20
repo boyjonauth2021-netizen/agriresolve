@@ -16,7 +16,10 @@ app.use(cors());
 app.use(express.json({ limit: "10mb" }));
 app.use(createRouter());
 
-if (process.env.NODE_ENV === "production") {
+const isProduction =
+  process.env.NODE_ENV === "production" || process.env.RENDER;
+
+if (isProduction) {
   const publicDir = path.join(__dirname, "../public");
   // Built frontend lives in dist/public after `npm run build`
   app.use(express.static(publicDir));
