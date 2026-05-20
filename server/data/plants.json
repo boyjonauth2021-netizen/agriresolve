@@ -1,0 +1,648 @@
+[
+  {
+    "id": "aubergine",
+    "name": "Aubergine",
+    "scientificName": "Solanum melongena",
+    "category": "Fruit Vegetable",
+    "emoji": "\ud83c\udf46",
+    "growthDays": 70,
+    "description": "A warm-season vegetable thriving in Mauritius's tropical climate. Produces glossy purple fruits ideal for curries and grills.",
+    "conditions": {
+      "phMin": 5.5,
+      "phMax": 6.5,
+      "tempMin": 22,
+      "tempMax": 32,
+      "lightHoursPerDay": 14,
+      "ecMin": 2.5,
+      "ecMax": 3.5,
+      "humidityMin": 60,
+      "humidityMax": 75,
+      "waterTempMin": 18,
+      "waterTempMax": 24
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "High",
+      "calcium": "Medium",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Maintain consistent watering to prevent blossom-end rot.",
+      "Provide support stakes as fruits develop and become heavy.",
+      "Pollinate manually in enclosed hydroponic setups."
+    ]
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "scientificName": "Ocimum basilicum",
+    "category": "Herb",
+    "emoji": "\ud83c\udf3f",
+    "growthDays": 30,
+    "description": "A fast-growing aromatic herb that loves Mauritius's warm temperatures. Perfect for DWC or NFT systems.",
+    "conditions": {
+      "phMin": 5.5,
+      "phMax": 6.5,
+      "tempMin": 20,
+      "tempMax": 30,
+      "lightHoursPerDay": 16,
+      "ecMin": 1,
+      "ecMax": 1.6,
+      "humidityMin": 50,
+      "humidityMax": 70,
+      "waterTempMin": 18,
+      "waterTempMax": 22
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "Low",
+      "potassium": "Medium",
+      "calcium": "Low",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Pinch off flower buds regularly to extend the harvest period.",
+      "Keep air circulation high to prevent powdery mildew.",
+      "Harvest in the morning for maximum flavor."
+    ]
+  },
+  {
+    "id": "bitter-gourd",
+    "name": "Bitter Gourd",
+    "scientificName": "Momordica charantia",
+    "category": "Fruit Vegetable",
+    "emoji": "\ud83e\udd52",
+    "growthDays": 60,
+    "description": "A climbing vine prized in Mauritian cuisine. Known locally as 'margose', it thrives in the island's warm, humid conditions.",
+    "conditions": {
+      "phMin": 5.5,
+      "phMax": 6.7,
+      "tempMin": 24,
+      "tempMax": 35,
+      "lightHoursPerDay": 14,
+      "ecMin": 2,
+      "ecMax": 3,
+      "humidityMin": 65,
+      "humidityMax": 80,
+      "waterTempMin": 20,
+      "waterTempMax": 26
+    },
+    "nutrients": {
+      "nitrogen": "Medium",
+      "phosphorus": "Medium",
+      "potassium": "High",
+      "calcium": "Medium",
+      "magnesium": "Medium"
+    },
+    "tips": [
+      "Install a trellis system \u2014 vines can reach 3 to 4 meters.",
+      "Hand-pollinate for reliable fruit set in enclosed systems.",
+      "Harvest when fruits are still green for best flavor."
+    ]
+  },
+  {
+    "id": "bok-choy",
+    "name": "Bok Choy",
+    "scientificName": "Brassica rapa subsp. chinensis",
+    "category": "Leafy Green",
+    "emoji": "\ud83e\udd6c",
+    "growthDays": 35,
+    "description": "A quick-growing leafy green that tolerates Mauritius's cooler highland winters. Excellent in stir-fries and soups.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 7,
+      "tempMin": 15,
+      "tempMax": 25,
+      "lightHoursPerDay": 12,
+      "ecMin": 1.5,
+      "ecMax": 2.5,
+      "humidityMin": 60,
+      "humidityMax": 75,
+      "waterTempMin": 15,
+      "waterTempMax": 20
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "Medium",
+      "calcium": "High",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Cooler temperatures (below 20\u00b0C) produce sweeter, crispier leaves.",
+      "Ensure consistent moisture \u2014 dry spells cause bolting.",
+      "Harvest outer leaves progressively for a continuous yield."
+    ]
+  },
+  {
+    "id": "capsicum",
+    "name": "Capsicum",
+    "scientificName": "Capsicum annuum",
+    "category": "Fruit Vegetable",
+    "emoji": "\ud83e\uded1",
+    "growthDays": 80,
+    "description": "Bell peppers and hot peppers flourish in Mauritius's year-round warmth. Rich in vitamin C and ideal for the local cuisine.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 6.5,
+      "tempMin": 21,
+      "tempMax": 30,
+      "lightHoursPerDay": 16,
+      "ecMin": 2,
+      "ecMax": 3,
+      "humidityMin": 60,
+      "humidityMax": 70,
+      "waterTempMin": 18,
+      "waterTempMax": 24
+    },
+    "nutrients": {
+      "nitrogen": "Medium",
+      "phosphorus": "High",
+      "potassium": "High",
+      "calcium": "Medium",
+      "magnesium": "Medium"
+    },
+    "tips": [
+      "Reduce nitrogen at fruiting stage to avoid excessive leaf growth.",
+      "Pollinate manually by gently shaking the plant.",
+      "Support heavy fruit clusters to prevent stem breakage."
+    ]
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "scientificName": "Daucus carota",
+    "category": "Root Vegetable",
+    "emoji": "\ud83e\udd55",
+    "growthDays": 70,
+    "description": "Best grown in cooler highland areas of Mauritius. Requires deep growing media for optimal root development in hydroponic setups.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 6.5,
+      "tempMin": 16,
+      "tempMax": 24,
+      "lightHoursPerDay": 12,
+      "ecMin": 1.6,
+      "ecMax": 2,
+      "humidityMin": 50,
+      "humidityMax": 65,
+      "waterTempMin": 14,
+      "waterTempMax": 20
+    },
+    "nutrients": {
+      "nitrogen": "Low",
+      "phosphorus": "Medium",
+      "potassium": "High",
+      "calcium": "Low",
+      "magnesium": "Medium"
+    },
+    "tips": [
+      "Use a deep media bed (at least 30 cm) for root development.",
+      "Avoid high nitrogen \u2014 it causes forked, hairy roots.",
+      "Thin seedlings to 5 cm spacing for uniform root growth."
+    ]
+  },
+  {
+    "id": "coriander",
+    "name": "Coriander",
+    "scientificName": "Coriandrum sativum",
+    "category": "Herb",
+    "emoji": "\ud83c\udf3f",
+    "growthDays": 25,
+    "description": "An essential herb in Mauritian cuisine. Fast-growing in cool conditions, prone to bolting in summer heat.",
+    "conditions": {
+      "phMin": 6.2,
+      "phMax": 6.8,
+      "tempMin": 17,
+      "tempMax": 27,
+      "lightHoursPerDay": 12,
+      "ecMin": 1.2,
+      "ecMax": 1.8,
+      "humidityMin": 50,
+      "humidityMax": 70,
+      "waterTempMin": 15,
+      "waterTempMax": 20
+    },
+    "nutrients": {
+      "nitrogen": "Medium",
+      "phosphorus": "Low",
+      "potassium": "Low",
+      "calcium": "Low",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Sow fresh seeds every 3 weeks for a continuous harvest.",
+      "Shade cloth helps prevent bolting during hot Mauritian summers.",
+      "Harvest leaves before flower stalks appear for best flavor."
+    ]
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "scientificName": "Cucumis sativus",
+    "category": "Fruit Vegetable",
+    "emoji": "\ud83e\udd52",
+    "growthDays": 55,
+    "description": "A high-yield vine vegetable well-suited to Mauritius's tropical humidity. Excellent for NFT and DWC hydroponic systems.",
+    "conditions": {
+      "phMin": 5.5,
+      "phMax": 6.5,
+      "tempMin": 22,
+      "tempMax": 30,
+      "lightHoursPerDay": 16,
+      "ecMin": 1.7,
+      "ecMax": 2.5,
+      "humidityMin": 70,
+      "humidityMax": 85,
+      "waterTempMin": 18,
+      "waterTempMax": 24
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "High",
+      "calcium": "Medium",
+      "magnesium": "Medium"
+    },
+    "tips": [
+      "Train vines vertically on a trellis to maximize space.",
+      "Maintain high humidity to prevent powdery mildew.",
+      "Harvest frequently \u2014 every 2 to 3 days \u2014 to encourage production."
+    ]
+  },
+  {
+    "id": "green-onion",
+    "name": "Green Onion",
+    "scientificName": "Allium fistulosum",
+    "category": "Bulb Vegetable",
+    "emoji": "\ud83e\uddc5",
+    "growthDays": 40,
+    "description": "Quick-growing spring onions commonly used in Mauritian cooking. Thrives in both highland and coastal hydroponic setups.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 7,
+      "tempMin": 13,
+      "tempMax": 25,
+      "lightHoursPerDay": 12,
+      "ecMin": 1.8,
+      "ecMax": 2.4,
+      "humidityMin": 50,
+      "humidityMax": 70,
+      "waterTempMin": 15,
+      "waterTempMax": 22
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "Low",
+      "potassium": "Medium",
+      "calcium": "Low",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Regrow from cut bases \u2014 place root ends in shallow water.",
+      "Harvest at 30 cm height for optimal tenderness.",
+      "Good companion plant; can be interplanted with other crops."
+    ]
+  },
+  {
+    "id": "kale",
+    "name": "Kale",
+    "scientificName": "Brassica oleracea var. sabellica",
+    "category": "Leafy Green",
+    "emoji": "\ud83e\udd6c",
+    "growthDays": 50,
+    "description": "A nutritional powerhouse that grows well in Mauritius's cooler highlands. Very productive in hydroponic NFT systems.",
+    "conditions": {
+      "phMin": 5.5,
+      "phMax": 6.5,
+      "tempMin": 15,
+      "tempMax": 24,
+      "lightHoursPerDay": 14,
+      "ecMin": 1.6,
+      "ecMax": 2.5,
+      "humidityMin": 55,
+      "humidityMax": 75,
+      "waterTempMin": 15,
+      "waterTempMax": 20
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "High",
+      "calcium": "High",
+      "magnesium": "Medium"
+    },
+    "tips": [
+      "Harvest outer leaves first to keep the plant producing.",
+      "Slight frost or cold stress sweetens the flavor naturally.",
+      "High calcium demand \u2014 watch for tip burn in fast-growing conditions."
+    ]
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "scientificName": "Lactuca sativa",
+    "category": "Leafy Green",
+    "emoji": "\ud83e\udd57",
+    "growthDays": 30,
+    "description": "The ideal starter crop for hydroponic systems in Mauritius. Fast-growing, low-maintenance, and thrives in DWC and NFT setups.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 7,
+      "tempMin": 15,
+      "tempMax": 22,
+      "lightHoursPerDay": 14,
+      "ecMin": 0.8,
+      "ecMax": 1.2,
+      "humidityMin": 50,
+      "humidityMax": 70,
+      "waterTempMin": 15,
+      "waterTempMax": 20
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "Low",
+      "potassium": "Medium",
+      "calcium": "Medium",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Keep water temperature below 22\u00b0C to prevent tip burn.",
+      "Use shade cloth during Mauritius's hot summer months.",
+      "Harvest heads at 60 to 70 days, or outer leaves progressively."
+    ]
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "scientificName": "Mentha spicata",
+    "category": "Herb",
+    "emoji": "\ud83c\udf31",
+    "growthDays": 20,
+    "description": "Spearmint and peppermint grow vigorously in Mauritius. A kitchen staple used in drinks, desserts, and chutneys.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 7,
+      "tempMin": 18,
+      "tempMax": 28,
+      "lightHoursPerDay": 12,
+      "ecMin": 1.2,
+      "ecMax": 1.6,
+      "humidityMin": 60,
+      "humidityMax": 80,
+      "waterTempMin": 18,
+      "waterTempMax": 22
+    },
+    "nutrients": {
+      "nitrogen": "Medium",
+      "phosphorus": "Low",
+      "potassium": "Medium",
+      "calcium": "Low",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Prune regularly \u2014 mint spreads aggressively and can crowd other plants.",
+      "Harvest just before flowering for peak oil content.",
+      "Propagate easily from cuttings placed directly in water."
+    ]
+  },
+  {
+    "id": "okra",
+    "name": "Okra",
+    "scientificName": "Abelmoschus esculentus",
+    "category": "Fruit Vegetable",
+    "emoji": "\ud83c\udf3f",
+    "growthDays": 60,
+    "description": "Known locally as 'lalo', okra is a staple in Mauritian cooking. It loves heat and does exceptionally well in the island's climate.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 6.8,
+      "tempMin": 24,
+      "tempMax": 35,
+      "lightHoursPerDay": 14,
+      "ecMin": 2,
+      "ecMax": 2.8,
+      "humidityMin": 60,
+      "humidityMax": 75,
+      "waterTempMin": 20,
+      "waterTempMax": 28
+    },
+    "nutrients": {
+      "nitrogen": "Medium",
+      "phosphorus": "Medium",
+      "potassium": "High",
+      "calcium": "Medium",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Harvest pods when they reach 7 to 10 cm for best tenderness.",
+      "Wear gloves \u2014 stems and leaves can be irritating to skin.",
+      "High heat tolerance makes it ideal for coastal lowland setups."
+    ]
+  },
+  {
+    "id": "pak-choi",
+    "name": "Pak Choi",
+    "scientificName": "Brassica rapa subsp. chinensis",
+    "category": "Leafy Green",
+    "emoji": "\ud83e\udd6c",
+    "growthDays": 28,
+    "description": "A mild, crunchy leafy green popular in Chinese-Mauritian households. Grows rapidly in NFT channels and DWC systems.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 7,
+      "tempMin": 15,
+      "tempMax": 25,
+      "lightHoursPerDay": 12,
+      "ecMin": 1.5,
+      "ecMax": 2,
+      "humidityMin": 60,
+      "humidityMax": 75,
+      "waterTempMin": 15,
+      "waterTempMax": 20
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "Medium",
+      "calcium": "High",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Ideal for beginners \u2014 tolerates a wide range of conditions.",
+      "Successive planting every 2 weeks ensures a continuous harvest.",
+      "High moisture needs \u2014 never let the roots dry out."
+    ]
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "scientificName": "Cucurbita maxima",
+    "category": "Fruit Vegetable",
+    "emoji": "\ud83c\udf83",
+    "growthDays": 90,
+    "description": "A sprawling vine crop known locally as 'giraumon'. Needs space and strong support but rewards with abundant harvests.",
+    "conditions": {
+      "phMin": 5.5,
+      "phMax": 6.5,
+      "tempMin": 20,
+      "tempMax": 35,
+      "lightHoursPerDay": 14,
+      "ecMin": 1.8,
+      "ecMax": 2.4,
+      "humidityMin": 60,
+      "humidityMax": 70,
+      "waterTempMin": 18,
+      "waterTempMax": 26
+    },
+    "nutrients": {
+      "nitrogen": "Medium",
+      "phosphorus": "High",
+      "potassium": "High",
+      "calcium": "Medium",
+      "magnesium": "High"
+    },
+    "tips": [
+      "Hand-pollinate female flowers (with a round base) for fruit set.",
+      "Limit to 2 to 3 fruits per vine for larger, quality pumpkins.",
+      "Use a net sling to support heavy fruits as they mature."
+    ]
+  },
+  {
+    "id": "radish",
+    "name": "Radish",
+    "scientificName": "Raphanus sativus",
+    "category": "Root Vegetable",
+    "emoji": "\ud83c\udf31",
+    "growthDays": 25,
+    "description": "One of the fastest crops to grow hydroponically. Perfect for beginners and short growing cycles in Mauritius.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 7,
+      "tempMin": 10,
+      "tempMax": 24,
+      "lightHoursPerDay": 12,
+      "ecMin": 1.6,
+      "ecMax": 2.2,
+      "humidityMin": 50,
+      "humidityMax": 65,
+      "waterTempMin": 12,
+      "waterTempMax": 20
+    },
+    "nutrients": {
+      "nitrogen": "Low",
+      "phosphorus": "Medium",
+      "potassium": "High",
+      "calcium": "Low",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Harvest at 25 days \u2014 delay causes woodiness and bitterness.",
+      "Use a deep media bed for round varieties to form properly.",
+      "Thin to one seedling per pod for uniform root development."
+    ]
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "scientificName": "Spinacia oleracea",
+    "category": "Leafy Green",
+    "emoji": "\ud83e\udd6c",
+    "growthDays": 40,
+    "description": "A nutrient-dense leafy green best grown in the cooler Mauritian highlands. Rich in iron and very popular in local cuisine.",
+    "conditions": {
+      "phMin": 6,
+      "phMax": 7,
+      "tempMin": 10,
+      "tempMax": 22,
+      "lightHoursPerDay": 12,
+      "ecMin": 1.8,
+      "ecMax": 2.3,
+      "humidityMin": 50,
+      "humidityMax": 70,
+      "waterTempMin": 12,
+      "waterTempMax": 18
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "Low",
+      "potassium": "Medium",
+      "calcium": "High",
+      "magnesium": "Medium"
+    },
+    "tips": [
+      "Avoid temperatures above 25\u00b0C \u2014 spinach bolts rapidly in heat.",
+      "Iron deficiency shows as yellowing between leaf veins.",
+      "Harvest baby leaves at 25 to 30 days for a tender crop."
+    ]
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "scientificName": "Solanum lycopersicum",
+    "category": "Fruit Vegetable",
+    "emoji": "\ud83c\udf45",
+    "growthDays": 75,
+    "description": "The most popular hydroponic crop in Mauritius. Cherry and beefsteak varieties thrive in DWC, NFT, and Dutch Bucket systems.",
+    "conditions": {
+      "phMin": 5.5,
+      "phMax": 6.5,
+      "tempMin": 20,
+      "tempMax": 30,
+      "lightHoursPerDay": 16,
+      "ecMin": 2.5,
+      "ecMax": 5,
+      "humidityMin": 65,
+      "humidityMax": 75,
+      "waterTempMin": 18,
+      "waterTempMax": 24
+    },
+    "nutrients": {
+      "nitrogen": "High",
+      "phosphorus": "High",
+      "potassium": "High",
+      "calcium": "High",
+      "magnesium": "Medium"
+    },
+    "tips": [
+      "Prune suckers weekly to focus energy on fruiting trusses.",
+      "Shake or vibrate the plant to aid pollination in enclosed setups.",
+      "Raise EC to 4 to 5 during fruiting for more flavorful tomatoes."
+    ]
+  },
+  {
+    "id": "watercress",
+    "name": "Watercress",
+    "scientificName": "Nasturtium officinale",
+    "category": "Leafy Green",
+    "emoji": "\ud83c\udf3f",
+    "growthDays": 20,
+    "description": "A semi-aquatic herb that flourishes in hydroponic systems. Known locally as 'cresson', it's used in soups and salads.",
+    "conditions": {
+      "phMin": 6.5,
+      "phMax": 7.5,
+      "tempMin": 10,
+      "tempMax": 20,
+      "lightHoursPerDay": 12,
+      "ecMin": 0.4,
+      "ecMax": 1.6,
+      "humidityMin": 70,
+      "humidityMax": 90,
+      "waterTempMin": 10,
+      "waterTempMax": 18
+    },
+    "nutrients": {
+      "nitrogen": "Medium",
+      "phosphorus": "Low",
+      "potassium": "Medium",
+      "calcium": "High",
+      "magnesium": "Low"
+    },
+    "tips": [
+      "Prefers flowing water \u2014 DWC and NFT systems work best.",
+      "Harvest shoots continuously to prevent woodiness.",
+      "Cool highland water sources of Mauritius are ideal for this crop."
+    ]
+  }
+]
